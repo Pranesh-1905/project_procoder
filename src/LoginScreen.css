@@ -1,0 +1,83 @@
+/* src/screens/Auth/LoginScreen.css */
+
+body {
+  background-color: #121212; /* Dark background for the body */
+  color: #ffffff; /* Light text color for better contrast */
+}
+
+.login-container {
+  padding: 16px;
+  background-color: #1e1e1e; /* Darker background for the login container */
+  width: 40%;
+  height: auto; /* Adjusted height to auto for better responsiveness */
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5); /* More pronounced shadow for depth */
+  transition: transform 0.2s; /* Animation for hover effect */
+}
+
+.login-container:hover {
+  transform: scale(1.02); /* Slightly scale up on hover */
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.login-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff; /* White text for title */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-label {
+  font-size: 25px;
+  margin-bottom: 8px;
+  margin-top: 16px;
+  color: #ffffff; /* White text for labels */
+}
+
+.login-input {
+  height: 40px;
+  border: 1px solid #444; /* Darker border for input fields */
+  margin-bottom: 16px;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #333; /* Dark background for input fields */
+  color: #ffffff; /* White text for input */
+}
+
+.login-input::placeholder {
+  color: #aaa; /* Light gray placeholder text */
+}
+
+.login-button {
+  background-color: #4CAF50; /* Green button color */
+  padding: 10px 16px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  font-size: 25px;
+  transition: transform 0.2s;
+}
+
+.login-button:hover {
+  background-color: #45a049;
+  transform: scale(1.02); /* Slightly darker green on hover */
+}
+
+.login-weather-icon {
+  width: 200px;
+  height: 200px;
+}
+.total{
+  padding-top: 70px;
+}

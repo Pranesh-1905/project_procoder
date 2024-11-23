@@ -1,0 +1,89 @@
+body {
+  background-color: #121212; /* Dark background for the entire page */
+  color: #e0e0e0; /* Light gray text for better readability */
+  margin: 0; /* Remove default margin */
+  font-family: 'Arial', sans-serif; /* Modern font */
+}
+
+.register-container {
+  width: 100%;
+  margin: 40px auto;
+  padding: 60px;
+  background-color: #1e1e1e; /* Slightly lighter dark background for the container */
+  border: 1px solid #333; /* Darker border for better definition */
+  border-radius: 50px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.9); /* Deeper shadow for more depth */
+  transition: transform 0.2s; /* Animation for hover effect */
+  
+}
+.register-container:hover {
+  transform: scale(1.06); /* Slightly scale up on hover */
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; /* Stretch for full-width inputs */
+}
+
+.register-label {
+  margin-bottom: 8px; /* Reduced margin for compactness */
+  font-weight: bold;
+  color: #ffffff; /* White text for better contrast */
+}
+
+.register-input {
+  padding: 12px; /* Increased padding for comfort */
+  margin-bottom: 15px; /* Reduced margin */
+  border: 1px solid #555; /* Lighter border for inputs */
+  border-radius: 5px;
+  background-color: #222; /* Darker background for inputs */
+  color: #282525; /* White text for inputs */
+  transition: border-color 0.3s; /* Smooth transition */
+  font-size: 14px; /* Slightly larger font size for readability */
+}
+
+.register-input:focus {
+  border-color: #4CAF50; /* Highlight border on focus */
+  outline: none; /* Remove default outline */
+}
+
+.register-button {
+  padding: 12px 20px;
+  background-color: #4CAF50; /* Green background for button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+  font-size: 16px; /* Slightly larger font size for buttons */
+}
+
+.register-button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+.register-button:active {
+  transform: scale(0.95); /* Scale down on click */
+}
+
+.error-message {
+  color: #ff6b6b; /* Softer red for error messages */
+  font-size: 14px; /* Adjust font size for better readability */
+  margin-bottom: 10px; /* Add some space between the error message and the next input field */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .register-container {
+    max-width: 90%; /* Make container responsive */
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+}
+.img{
+  transition: transform 0.2s;
+}
+.img:hover {
+  transform: scale(1.06); /* Slightly scale up on hover */
+}
